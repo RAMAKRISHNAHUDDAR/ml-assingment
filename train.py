@@ -9,3 +9,5 @@ model = LinearRegression()
 model.fit(X, y)
 
 print("Prediction for 5:", model.predict([[5]]))
+print("Coefficients:", model.coef_)
+print("Intercept:", model.intercept_)   
